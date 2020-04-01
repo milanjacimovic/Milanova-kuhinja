@@ -1,0 +1,106 @@
+{
+    "Home":{
+        "1":"Pocetna"
+    },
+    "About":{
+        "1":"Dodatno"
+    },
+    "Signout":{
+        "1":"Izloguj se"
+    },
+    "Signin":{
+        "1":"Uloguj se"
+    },
+    "Signup":{
+        "1":"Prijavi se"
+    },
+    "Recipe of the day":{
+        "1":"Recept dana"
+    },
+    "Search":{
+        "1":"Pretrazi"
+    },
+    "English":{
+        "1":"Engleski"
+    },
+    "Serbian":{
+        "1":"Srpski"
+    },
+    "Welcome":{
+        "1":"Dobrodosli"
+    },
+    "Ko sam ja":{
+        "1":"Ko sam ja"
+    },
+    "I am Milan Jacimovic":{
+        "1":"Ja sam Milan Jacimovic"
+    },
+    "Manager":{
+        "1":"Menadzer"
+    },
+    "Gamer":{
+        "1":"Gejmer"
+    },
+    "Eat with me!":{
+        "1":"Jedimo zajedno!"
+    },
+    "Are you sure?":{
+        "1":"Stvarno hoces da ides? :("
+    },
+    "Log out":{
+        "1":"Odjavi se"
+    },
+    "Login":{
+        "1":"Prijavi se"
+    },
+    "Frendo, You're back!!!":{
+        "1":"Vratio si se, prijatelju!!!"
+    },
+    "Hello there, foodie!":{
+        "1":"Zdravo, gurmane!"
+    },
+    "EROR 404: PAGE NOT FOUND!":{
+        "1":"GRESKA 404: STRANICA NIJE PRONADJENA!"
+    },
+    "Fun food facts": {
+        "1": "Zanimljivosti o hrani"
+    },
+    "Search recipes": {
+        "1": "Pretrazi recepte"
+    },
+    "Plan your meals for today": {
+        "1": "Isplaniraj obroke za danas"
+    }
+    ,
+    "How many calories do you want? Don't worry, you're not fat": {
+        "1": "Koliko kalorija zelis? Ne brini, nisi debela"
+    },
+    "Total calories": {
+        "1": "Ukupno kalorija"
+    }
+    ,
+    "Total protein": {
+        "1": "Ukupno proteina"
+    }
+    ,
+    "Total fat": {
+        "1": "Ukupno masti"
+    }
+    ,
+    "Total carbohydrates": {
+        "1": "Ukupno ugljenih hidrata"
+    },
+    "grams": {
+        "1": "grama"
+    },    
+    "Ready in": {
+        "1": "Spremno za"
+    },    
+    "minutes": {
+        "1": "minuta"
+    },    
+    "Servings": {
+        "1": "Porcija"
+    }
+    
+}

@@ -1,11 +1,12 @@
 import React from 'react'
 import style from './recipe.module.css'
+import i18n from './i18next';
 
 const Recipe = ({ title, calories, image, ingredients }) => {
     return (
         <div className={style.recipe} >
             <h1> {title}</h1>
-            <ol>
+            <ol style={{textAlign:"left"}}>
                 {ingredients.map(ingredient => (
                     <li>{ingredient.text}</li>
                 ))}

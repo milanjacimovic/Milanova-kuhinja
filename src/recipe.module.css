@@ -8,11 +8,13 @@
     background: white;
     align-items: center;
     min-width: 40%;
-    padding-bottom: 5px;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .image{
    border-radius: 50%;
-   width: 100px; 
-   height: 100px;
+   width: 20vw; 
+   height: 20vw
 }
