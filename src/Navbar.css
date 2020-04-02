@@ -55,6 +55,14 @@
     font-size: large;
 }
 
+a:hover {
+    background-color: #eb5e5e;
+  }
+/* .zastava1:hover, .zastava2:hover{
+    
+        background-color: none;
+     
+} */
 
 @media (max-width:512px)
 {
@@ -73,3 +81,4 @@
 }
 
 }
+

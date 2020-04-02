@@ -19,43 +19,44 @@ const Navbar = () => {
                     <p>
                         <Link to='/about'>{t('About.1')}</Link>
                     </p>
-
                     <p>
-                        <Link to='/signout'>{t('Sign out.1')}</Link>
-                    </p>
+                        <Link to='/profile'>{t('Profile.1')}</Link> </p>
+                <p>
+                    <Link to='/signout'>{t('Sign out.1')}</Link>
+                </p>
                 </ul>
 
             </nav>
-        </div>
+        </div >
         )
     }
     else {
-        return (<div className="razmak">
-            <nav className="navbar bg-primary" >
-                
-                <ul>
-                    <p>
-                        <Link to='/'>{t('Welcome.1')}</Link>
+    return (<div className="razmak">
+        <nav className="navbar bg-primary" >
 
-                    </p>
-                    <p>
-                        <Link to='/about'>{t('About.1')}</Link>
-                    </p>
+            <ul>
+                <p>
+                    <Link to='/'>{t('Welcome.1')}</Link>
 
-                    <p>
-                        <Link to='/signin'>{t('Sign in.1')}</Link>
-                    </p>
-                    <p>
-                        <Link to='/signup'>{t('Sign up.1')}</Link>
-                    </p>
-                </ul>
+                </p>
+                <p>
+                    <Link to='/about'>{t('About.1')}</Link>
+                </p>
 
-            </nav>
-            
-        </div>
+                <p>
+                    <Link to='/signin'>{t('Sign in.1')}</Link>
+                </p>
+                <p>
+                    <Link to='/signup'>{t('Sign up.1')}</Link>
+                </p>
+            </ul>
 
-        )
-    }
+        </nav>
+
+    </div>
+
+    )
+}
 
 }
 

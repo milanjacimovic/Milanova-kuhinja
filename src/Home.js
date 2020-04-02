@@ -36,24 +36,24 @@ const Home = () => {
     const [caloriegoal, setCaloriegoal]= useState('2000')
 
     const [search, setSearch] = useState('');
-    const [query, setQuery] = useState('chicken');
+    const [query, setQuery] = useState('');
 
 
 
-    // useEffect(() => {
-    //   getRecipes()
+    useEffect(() => {
+      getRecipes()
 
-    // }, [query]);
+    }, [query]);
 
-    // const getRecipes = async () => {
-    //   const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
-    //   const data = await response.json()
-    //   setIsloading(false)
-    //   setRecipes(data.hits);
-    //   console.log(data.hits);
+    const getRecipes = async () => {
+      const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
+      const data = await response.json()
+      setIsloading(false)
+      setRecipes(data.hits);
+      console.log(data.hits);
 
 
-    // }
+    }
 
     useEffect(() => {
         getRandomRecipe()
@@ -118,7 +118,7 @@ const Home = () => {
                     type="text"
                     value={search}
                     onChange={updateSearch} />
-                <button className="search-button" type="submit">{t('Search recipes.1')}</button>
+                <button style={{cursor: "pointer"}} className="search-button" type="submit">{t('Search recipes.1')}</button>
             </form>
             <div className="recipes">
                 {isloading ? <Spinner /> : <div className="recipes">{recipes.map(recipe => (
@@ -145,7 +145,7 @@ const Home = () => {
             <Niz />
             <div style={{paddingBottom:"1%", paddingTop:"3%"}}><label style={{fontSize:"120%"}} for="name">{t("How many calories do you want? Don't worry, you're not fat.1")}!</label></div>
             <input className="search-bar" name="name" id="name" value={caloriegoal} placeholder="Enter your calories goal for today"  onChange={(e)=>updateCalories(e)} style={{width:"20%"}}></input>
-            <button  /*onClick={Spoonacular}*/  className="search-button">{t('Plan your meals for today.1')}</button>
+            <button  style={{cursor: "pointer"}} onClick={Spoonacular}  className="search-button">{t('Plan your meals for today.1')}</button>
             <div className="recipes">{planmeal.map(recipe => (
                 <MealPlanner
                     key={recipe.id}

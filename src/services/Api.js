@@ -7,6 +7,10 @@ const getUsers = async () => {
    
 }
 
+const getUserById = async (user_id)=>{
+    return await axios.get(`https://coetus.herokuapp.com/api/users/${user_id}`)
+}
+
 const registerUser = async (user)=>{
     return  await axios.put('https://coetus.herokuapp.com/api/users',
      (user
@@ -23,4 +27,4 @@ const loginUser = async (username, password)=>{
     
 }
 
-export {getUsers, registerUser, loginUser}
+export {getUsers, registerUser, loginUser, getUserById}

@@ -17,6 +17,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from './i18next';
 import Country from './Country';
 import Spoonacular from './IsplanirajObroke';
+import Profile from './Profile';
 
 
 const App = () => {
@@ -47,6 +48,7 @@ const App = () => {
           <PublicRoute component={About} path='/about' />
 
           <PrivateRoute component={Home} path="/home" />
+          <PrivateRoute component={Profile} path="/profile"/>
           <PrivateRoute component={Signout} path="/signout" />
           <Route path="*">
             <Navbar />

@@ -31,7 +31,7 @@ function About() {
                     <a target="_blanc" 
                     href="https://www.linkedin.com/in/milanjacimovic/"><img  width="10%" style={{maxWidth:"200px"}} src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG9.png" alt=""/></a>
                     <a target="_blanc" 
-                    href="https://github.com/milanjacimovic"><img style={{maxWidth:"200px"}}  width="10%"  src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""/></a>
+                    href="https://github.com/milanjacimovic"><img style={{maxWidth:"200px"}}  width="10%"  src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-square-512.png" alt=""/></a>
                     <a target="_blanc" 
                     href="https://www.facebook.com/unavailablern"><img  style={{maxWidth:"200px"}} width="10%"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1024px-Facebook_icon.svg.png" alt="" /></a>

@@ -7,6 +7,7 @@ import i18n from './i18next';
 import { useTranslation } from 'react-i18next';
 import style from './recipe.module.css'
 import './Signup.css'
+import recipe from './assets/recipe.jpg'
 
 const Signup = () => {
     const { t, i18n } = useTranslation();
@@ -51,7 +52,7 @@ const Signup = () => {
               {/* PROVERITI DA LI VALJA OVAJ DIV ISPOD */}
               <div style={{height:"200px"}}></div>
         {/* <div style={{height:"16vh"}} ></div> */}
-        <img style={{width:"20%", maxWidth:"500px", paddingTop:"3%"}} src="https://lh3.googleusercontent.com/proxy/K5MOulnnLG7DRsjvP1D1mTYXlzZmbByjPfO9wJ4Hp6D4XC7Q4pulDGA_RQ-6sfYu6A2ihTC3YaURhFQNDgKov2St4yhQn-79bgUG7O2wlR8jfJG27uPztwnM8ioeWofsbkuOmYMHRrQkJkn7scgX"/>
+        <img style={{width:"20%", maxWidth:"500px", paddingTop:"3%"}} src={recipe}/>
             <form
                 className="search-form"
                 
@@ -86,7 +87,7 @@ const Signup = () => {
                         type="text" id="confirm-password" placeholder="Confirm password"
                         onInput={(e) => setConfirmPassword(e.target.value)} required
                     />
-                <div><button style={{marginTop:"2%"}} className="search-button" type="submit" value="Register!">{t('Sign up.1')}</button></div>
+                <div><button style={{marginTop:"2%", cursor: "pointer"}} className="search-button" type="submit" value="Register!">{t('Sign up.1')}</button></div>
                 </div>
             </form>
                

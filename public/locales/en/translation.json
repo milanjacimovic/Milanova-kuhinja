@@ -107,6 +107,24 @@
       
     "Da biste videli recepte, prijavite se": {
         "1": "Sign in/Sign up to see the recipes"
+    },    
+    "Hello": {
+        "1": "Hello"
+    },    
+    "Here is your info": {
+        "1": "Here is your info"
+    },    
+    "Name": {
+        "1": "Name"
+    },    
+    "Surname": {
+        "1": "Surname"
+    },    
+    "Email": {
+        "1": "Email"
+    },    
+    "Profile": {
+        "1": "Profile"
     }
 
 

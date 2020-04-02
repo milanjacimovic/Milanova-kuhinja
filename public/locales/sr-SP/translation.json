@@ -1,6 +1,6 @@
 {
     "Home":{
-        "1":"Pocetna"
+        "1":"Početna"
     },
     "About":{
         "1":"Dodatno"
@@ -18,7 +18,7 @@
         "1":"Recept dana"
     },
     "Search":{
-        "1":"Pretrazi"
+        "1":"Pretraži"
     },
     "English":{
         "1":"Engleski"
@@ -27,16 +27,16 @@
         "1":"Srpski"
     },
     "Welcome":{
-        "1":"Dobrodosli"
+        "1":"Dobrodošli"
     },
     "Ko sam ja":{
         "1":"Ko sam ja"
     },
     "I am Milan Jacimovic":{
-        "1":"Ja sam Milan Jacimovic"
+        "1":"Ja sam Milan Jaćimović"
     },
     "Manager":{
-        "1":"Menadzer"
+        "1":"Menadžer"
     },
     "Gamer":{
         "1":"Gejmer"
@@ -45,7 +45,7 @@
         "1":"Jedimo zajedno!"
     },
     "Are you sure?":{
-        "1":"Stvarno hoces da ides? :("
+        "1":"Stvarno hoćes da ideš? :("
     },
     "Log out":{
         "1":"Odjavi se"
@@ -60,20 +60,20 @@
         "1":"Zdravo, ljubitelji hrane!"
     },
     "EROR 404: PAGE NOT FOUND!":{
-        "1":"GRESKA 404: STRANICA NIJE PRONADJENA!"
+        "1":"GRESKA 404: STRANICA NIJE PRONAĐENA!"
     },
     "Fun food facts": {
         "1": "Zanimljivosti o hrani"
     },
     "Search recipes": {
-        "1": "Pretrazi recepte"
+        "1": "Pretraži recepte"
     },
     "Plan your meals for today": {
         "1": "Isplaniraj obroke za danas"
     }
     ,
     "How many calories do you want? Don't worry, you're not fat": {
-        "1": "Koliko kalorija zelis? Ne brini, nisi debela"
+        "1": "Koliko kalorija želiš? Ne brini, nisi debela"
     },
     "Total calories": {
         "1": "Ukupno kalorija"
@@ -104,7 +104,26 @@
     },    
     "Da biste videli recepte, prijavite se": {
         "1": "Da biste videli recepte, prijavite/registrujte se"
+    },    
+    "Profile": {
+        "1": "Profil"
+    },    
+    "Hello": {
+        "1": "Zdravo"
+    },    
+    "Here is your info": {
+        "1": "Ovo si podelio sa nama"
+    },    
+    "Name": {
+        "1": "Ime"
+    },    
+    "Surname": {
+        "1": "Prezime"
+    },    
+    "Email": {
+        "1": "Email"
     }
+
     
 }
 
