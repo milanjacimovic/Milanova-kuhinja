@@ -8,7 +8,7 @@ import i18n from './i18next';
 const Navbar = () => {
     const { t, i18n } = useTranslation();
     if (isLoggedIn()) {
-        return (
+        return (<div>
             <nav className="navbar bg-primary menu" >
 
                 <ul>
@@ -21,17 +21,18 @@ const Navbar = () => {
                     </p>
 
                     <p>
-                        <Link to='/signout'>{t('Signout.1')}</Link>
+                        <Link to='/signout'>{t('Sign out.1')}</Link>
                     </p>
                 </ul>
 
             </nav>
+        </div>
         )
     }
     else {
-        return (
+        return (<div className="razmak">
             <nav className="navbar bg-primary" >
-
+                
                 <ul>
                     <p>
                         <Link to='/'>{t('Welcome.1')}</Link>
@@ -42,14 +43,17 @@ const Navbar = () => {
                     </p>
 
                     <p>
-                        <Link to='/signin'>{t('Signin.1')}</Link>
+                        <Link to='/signin'>{t('Sign in.1')}</Link>
                     </p>
                     <p>
-                        <Link to='/signup'>{t('Signup.1')}</Link>
+                        <Link to='/signup'>{t('Sign up.1')}</Link>
                     </p>
                 </ul>
 
             </nav>
+            
+        </div>
+
         )
     }
 

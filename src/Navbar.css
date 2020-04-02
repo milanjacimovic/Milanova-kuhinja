@@ -54,3 +54,22 @@
 .menu {
     font-size: large;
 }
+
+
+@media (max-width:512px)
+{
+   
+    .navbar ul {
+        display: block;
+    }
+.spacer {
+    height: 180px;
+}
+.recipe{
+    width: 100%;
+}
+.navbar ul {
+   display: block;
+}
+
+}

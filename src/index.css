@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width:512px)
+{
+    .navbar ul {
+        display: block;
+    }
+.spacer {
+    height: 180px;
+}
+.recipe{
+    width: 100%;
+}
+}

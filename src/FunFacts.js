@@ -17,11 +17,11 @@ const Niz = () => {
     return (<div>
         <div onTouchStart="">
             <div className="button">
-                <a href="javascript:void(0)" onClick={() => { gimmeFact(niz) }}>{t('Fun food facts.1')}</a>
+                <a  href="javascript:void(0)" onClick={() => { gimmeFact(niz) }}>{t('Fun food facts.1')}</a>
 
             </div>
         </div>
-        <div className={style.recipe}>
+        <div style={{marginTop:"3%"}} className={style.recipe4}>
             <h1>{randomFact.a}</h1>
             <img style={{ width: "30%" }} src={randomFact.img} />
             <h4>{randomFact.b}</h4>

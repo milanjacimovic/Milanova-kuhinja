@@ -5,14 +5,14 @@
     "About":{
         "1":"Dodatno"
     },
-    "Signout":{
+    "Sign out":{
         "1":"Izloguj se"
     },
-    "Signin":{
+    "Sign in":{
         "1":"Uloguj se"
     },
-    "Signup":{
-        "1":"Prijavi se"
+    "Sign up":{
+        "1":"Registruj se"
     },
     "Recipe of the day":{
         "1":"Recept dana"
@@ -57,7 +57,7 @@
         "1":"Vratio si se, prijatelju!!!"
     },
     "Hello there, foodie!":{
-        "1":"Zdravo, gurmane!"
+        "1":"Zdravo, ljubitelji hrane!"
     },
     "EROR 404: PAGE NOT FOUND!":{
         "1":"GRESKA 404: STRANICA NIJE PRONADJENA!"
@@ -101,6 +101,11 @@
     },    
     "Servings": {
         "1": "Porcija"
+    },    
+    "Da biste videli recepte, prijavite se": {
+        "1": "Da biste videli recepte, prijavite/registrujte se"
     }
     
 }
+
+

@@ -5,14 +5,14 @@
     "About": {
         "1": "About"
     },
-    "Signout": {
-        "1": "Signout"
+    "Sign out": {
+        "1": "Sign out"
     },
-    "Signin": {
-        "1": "Signin"
+    "Sign in": {
+        "1": "Sign in"
     },
-    "Signup": {
-        "1": "Signup"
+    "Sign up": {
+        "1": "Sign up"
     },
     "Recipe of the day": {
         "1": "Recipe of the day"
@@ -103,7 +103,15 @@
     },    
     "grams": {
         "1": "grams"
+    },
+      
+    "Da biste videli recepte, prijavite se": {
+        "1": "Sign in/Sign up to see the recipes"
     }
+
+
+
+   
 
 }
 
