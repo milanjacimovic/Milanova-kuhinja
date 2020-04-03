@@ -7,3 +7,4 @@ Funkcionalnosti:
 4) Kalkulator dnevnih obroka, za unete kalorije
 5) Prevod sa srpskog na engleski i obrnuto
 
+Magija se nalazi na https://milanova-paklena-kuhinja.netlify.com/
