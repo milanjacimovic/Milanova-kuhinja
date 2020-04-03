@@ -59,8 +59,8 @@
     "Hello there, foodie!":{
         "1":"Zdravo, ljubitelji hrane!"
     },
-    "EROR 404: PAGE NOT FOUND!":{
-        "1":"GRESKA 404: STRANICA NIJE PRONAĐENA!"
+    "ERROR 404 PAGE NOT FOUND":{
+        "1":"GRESKA 404 STRANICA NIJE PRONAĐENA"
     },
     "Fun food facts": {
         "1": "Zanimljivosti o hrani"

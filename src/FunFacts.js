@@ -15,7 +15,7 @@ const Niz = () => {
     }
 
     return (<div>
-        <div onTouchStart="">
+        <div /*onTouchStart=""*/ >
             <div className="button">
                 <a  href="javascript:void(0)" onClick={() => { gimmeFact(niz) }}>{t('Fun food facts.1')}</a>
 

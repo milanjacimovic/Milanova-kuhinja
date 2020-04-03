@@ -50,7 +50,7 @@ const Home = () => {
       const data = await response.json()
       setIsloading(false)
       setRecipes(data.hits);
-      console.log(data.hits);
+      
 
 
     }
@@ -71,7 +71,7 @@ const Home = () => {
         const response = await fetch(`https://www.themealdb.com/api/json/v1/1/random.php`)
         const data = await response.json()
         setRandomrecipe(data.meals);
-        console.log(data.meals);
+        
 
     }
     const Spoonacular = async () => {
@@ -79,19 +79,19 @@ const Home = () => {
         const data = await response.json()
         setPlanmeal(data.meals)
         setCalories(data.nutrients)
-        console.log(data.meals);
+        
 
     }
 
 
     const updateSearch = e => {
         setSearch(e.target.value)
-        console.log(search)
+        
     }
 
     const updateCalories = (e) =>{
         setCaloriegoal(e.target.value)
-        console.log(caloriegoal);
+        
         
     }
 
@@ -143,7 +143,7 @@ const Home = () => {
                 ))} </div></div>
 
             <Niz />
-            <div style={{paddingBottom:"1%", paddingTop:"3%"}}><label style={{fontSize:"120%"}} for="name">{t("How many calories do you want? Don't worry, you're not fat.1")}!</label></div>
+            <div style={{paddingBottom:"1%", paddingTop:"3%"}}><label style={{fontSize:"120%"}} htmlFor="name">{t("How many calories do you want? Don't worry, you're not fat.1")}!</label></div>
             <input className="search-bar" name="name" id="name" value={caloriegoal} placeholder="Enter your calories goal for today"  onChange={(e)=>updateCalories(e)} style={{width:"20%"}}></input>
             <button  style={{cursor: "pointer"}} onClick={Spoonacular}  className="search-button">{t('Plan your meals for today.1')}</button>
             <div className="recipes">{planmeal.map(recipe => (

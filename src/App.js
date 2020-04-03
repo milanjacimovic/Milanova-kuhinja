@@ -24,7 +24,7 @@ const App = () => {
   const { t, i18n } = useTranslation();
   
 
-  console.log(isLoggedIn());
+  
 
 
 
@@ -52,7 +52,7 @@ const App = () => {
           <PrivateRoute component={Signout} path="/signout" />
           <Route path="*">
             <Navbar />
-            <h1>{t('EROR 404: PAGE NOT FOUND!.1')}</h1>
+            <h1>{t('ERROR 404 PAGE NOT FOUND.1')}</h1>
           </Route>
 
 

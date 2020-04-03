@@ -37,7 +37,7 @@ const Signup = () => {
                 loginUser(username, password).then(res => {
                     setToken(res.data.token);
                     setId(res.data.user.user_id)
-                    console.log(res.data.token);
+                    
                     history.push('/signin')
                 })
             })
@@ -80,11 +80,11 @@ const Signup = () => {
                         onInput={(e) => setEmail(e.target.value)} required
                     />
                     <input className="form-input"
-                        type="text" id="password" placeholder="Password"
+                        type="password" id="password" placeholder="Password"
                         onInput={(e) => setPassword(e.target.value)} required
                     />
                     <input className="form-input"
-                        type="text" id="confirm-password" placeholder="Confirm password"
+                        type="password" id="confirm-password" placeholder="Confirm password"
                         onInput={(e) => setConfirmPassword(e.target.value)} required
                     />
                 <div><button style={{marginTop:"2%", cursor: "pointer"}} className="search-button" type="submit" value="Register!">{t('Sign up.1')}</button></div>

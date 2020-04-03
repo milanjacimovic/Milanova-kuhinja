@@ -21,12 +21,17 @@ const Signin = () => {
     const handleClick = (e) => {
         e.preventDefault()
         loginUser(username, password).then(res => {
+            if(res.data.success){
             setToken(res.data.token);
             setId(res.data.user.user_id);
           
             
             history.push('/home')
-        })
+            }
+            else {
+                alert('Invalid login data')
+            }
+        }).catch(err=> alert('Wrong username or password'))
 
     }
 
@@ -42,7 +47,7 @@ const Signin = () => {
                     <input  className="form-input" type="text" id="username" placeholder="Username"
                         onInput={(e) => setUsername(e.target.value)} required
                         />
-                    <input className="form-input" type="text" id="password" placeholder="Password"
+                    <input className="form-input" type="password" id="password" placeholder="Password"
                         onInput={(e) => setPassword(e.target.value)} required
                         />
                 <div style={{paddingBottom:"3%", paddingTop:"2%"}}><button style={{cursor: "pointer"}} className="search-button" type="submit">{t('Login.1')}</button></div>
