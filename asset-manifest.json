@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/milanova-kuhinja/static/css/main.9df9b9c4.chunk.css",
+    "main.js": "/milanova-kuhinja/static/js/main.7d014b43.chunk.js",
+    "main.js.map": "/milanova-kuhinja/static/js/main.7d014b43.chunk.js.map",
+    "runtime-main.js": "/milanova-kuhinja/static/js/runtime-main.e6f834b1.js",
+    "runtime-main.js.map": "/milanova-kuhinja/static/js/runtime-main.e6f834b1.js.map",
+    "static/js/2.b4e3051f.chunk.js": "/milanova-kuhinja/static/js/2.b4e3051f.chunk.js",
+    "static/js/2.b4e3051f.chunk.js.map": "/milanova-kuhinja/static/js/2.b4e3051f.chunk.js.map",
+    "index.html": "/milanova-kuhinja/index.html",
+    "precache-manifest.7b954f1af2eb1020b99a9e8dd60f91a1.js": "/milanova-kuhinja/precache-manifest.7b954f1af2eb1020b99a9e8dd60f91a1.js",
+    "service-worker.js": "/milanova-kuhinja/service-worker.js",
+    "static/css/main.9df9b9c4.chunk.css.map": "/milanova-kuhinja/static/css/main.9df9b9c4.chunk.css.map",
+    "static/js/2.b4e3051f.chunk.js.LICENSE.txt": "/milanova-kuhinja/static/js/2.b4e3051f.chunk.js.LICENSE.txt",
+    "static/media/food.jpg": "/milanova-kuhinja/static/media/food.ef33443f.jpg",
+    "static/media/recipe.jpg": "/milanova-kuhinja/static/media/recipe.94fc5ae4.jpg",
+    "static/media/spinner.gif": "/milanova-kuhinja/static/media/spinner.84f3c4f3.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6f834b1.js",
+    "static/js/2.b4e3051f.chunk.js",
+    "static/css/main.9df9b9c4.chunk.css",
+    "static/js/main.7d014b43.chunk.js"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+    "Home":{
+        "1":"Početna"
+    },
+    "About":{
+        "1":"Dodatno"
+    },
+    "Sign out":{
+        "1":"Izloguj se"
+    },
+    "Sign in":{
+        "1":"Uloguj se"
+    },
+    "Sign up":{
+        "1":"Registruj se"
+    },
+    "Recipe of the day":{
+        "1":"Recept dana"
+    },
+    "Search":{
+        "1":"Pretraži"
+    },
+    "English":{
+        "1":"Engleski"
+    },
+    "Serbian":{
+        "1":"Srpski"
+    },
+    "Welcome":{
+        "1":"Dobrodošli"
+    },
+    "Ko sam ja":{
+        "1":"Ko sam ja"
+    },
+    "I am Milan Jacimovic":{
+        "1":"Ja sam Milan Jaćimović"
+    },
+    "Manager":{
+        "1":"Menadžer"
+    },
+    "Gamer":{
+        "1":"Gejmer"
+    },
+    "Eat with me!":{
+        "1":"Jedimo zajedno!"
+    },
+    "Are you sure?":{
+        "1":"Stvarno hoćes da ideš? :("
+    },
+    "Log out":{
+        "1":"Odjavi se"
+    },
+    "Login":{
+        "1":"Prijavi se"
+    },
+    "Frendo, You're back!!!":{
+        "1":"Vratio si se, prijatelju!!!"
+    },
+    "Hello there, foodie!":{
+        "1":"Zdravo, ljubitelji hrane!"
+    },
+    "ERROR 404 PAGE NOT FOUND":{
+        "1":"GRESKA 404 STRANICA NIJE PRONAĐENA"
+    },
+    "Fun food facts": {
+        "1": "Zanimljivosti o hrani"
+    },
+    "Search recipes": {
+        "1": "Pretraži recepte"
+    },
+    "Plan your meals for today": {
+        "1": "Isplaniraj obroke za danas"
+    }
+    ,
+    "How many calories do you want? Don't worry, you're not fat": {
+        "1": "Koliko kalorija želiš? Ne brini, nisi debela"
+    },
+    "Total calories": {
+        "1": "Ukupno kalorija"
+    }
+    ,
+    "Total protein": {
+        "1": "Ukupno proteina"
+    }
+    ,
+    "Total fat": {
+        "1": "Ukupno masti"
+    }
+    ,
+    "Total carbohydrates": {
+        "1": "Ukupno ugljenih hidrata"
+    },
+    "grams": {
+        "1": "grama"
+    },    
+    "Ready in": {
+        "1": "Spremno za"
+    },    
+    "minutes": {
+        "1": "minuta"
+    },    
+    "Servings": {
+        "1": "Porcija"
+    },    
+    "Da biste videli recepte, prijavite se": {
+        "1": "Da biste videli recepte, prijavite/registrujte se"
+    },    
+    "Profile": {
+        "1": "Profil"
+    },    
+    "Hello": {
+        "1": "Zdravo"
+    },    
+    "Here is your info": {
+        "1": "Ovo si podelio sa nama"
+    },    
+    "Name": {
+        "1": "Ime"
+    },    
+    "Surname": {
+        "1": "Prezime"
+    },    
+    "Email": {
+        "1": "Email"
+    }
+
+    
+}
+
+
